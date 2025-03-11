@@ -1,0 +1,104 @@
+* {
+    margin: 1px;
+    padding: 0;
+    box-sizing:border-box;
+   
+}
+
+body {
+    line-height: 1.6;
+   
+}
+
+html{
+    background-size: 100%;
+}
+
+.navbar {
+    background-image: url('https://media.brainly.com.br/image/rs:fill/w:1080/q:75/plain/https://pt-static.z-dn.net/files/d77/b877437c3a9f272936c6e61616afbadd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    display: flex;
+    font-size:larger;
+    font-family: 'Montserrat';
+    height: 500px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content:flex-start;
+    gap: 2rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #000000;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size:xx-large;
+    text-align: left;
+}
+
+#Início {
+    border: 2px solid #ffffff;
+}
+
+#serie_1 h2 {
+    color: #000000;
+}
+
+#serie_2 h2 {
+    color: #000000;
+}
+
+#serie_3 h2 {
+    color: #000000;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}
+
+#titulo {
+    border: 10px solid white;
+    width: 500px;
+    height: 200px;
+    margin: 100px;
+    align-content: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.conteudo {
+    display: flex;
+    padding-top: 20px;
+    height: 200px;
+    gap: 32px;
+}
+
